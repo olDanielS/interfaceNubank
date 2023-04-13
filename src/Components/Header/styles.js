@@ -1,4 +1,5 @@
 import styled from "styled-components/native";
+import { MotiView, MotiText } from 'moti';
 
 export const Container = styled.View`
     background-color: #9400D3;
@@ -6,9 +7,7 @@ export const Container = styled.View`
     padding-left: 16px;
     padding-right: 16px;
     padding-bottom: 44px;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
+    
 `
 export const UserName = styled.Text`
     font-size: 22px;
