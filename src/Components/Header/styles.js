@@ -2,7 +2,7 @@ import styled from "styled-components/native";
 import { MotiView, MotiText } from 'moti';
 
 export const Container = styled.View`
-    background-color: #9400D3;
+    background-color: #8000ff;
     padding-top: ${props => props.heigth}px;
     padding-left: 16px;
     padding-right: 16px;
